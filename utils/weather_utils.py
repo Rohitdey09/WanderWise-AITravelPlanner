@@ -8,7 +8,7 @@ def get_weather(location, days=5):
     """Get weather forecast for a location"""
     try:
         
-        api_key = "3b68ac0a44f9482d9f492139253103"  
+        api_key = "YOUR_API_KEY"  
         url = f"http://api.weatherapi.com/v1/forecast.json?key={api_key}&q={location}&days={days}&aqi=no"
         
         response = requests.get(url, timeout=10)  
