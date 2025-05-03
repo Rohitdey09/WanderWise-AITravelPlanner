@@ -67,12 +67,14 @@ cd ai-travel-planner
 ```
 
 **Step 2: Create a virtual environment (optional but recommended)**
-python -m venv venv
-source venv/bin/activate   # For Linux/Mac
-**venv\Scripts\activate      # For Windows**
+- python -m venv venv
+- source venv/bin/activate   # For Linux/Mac
+- **venv\Scripts\activate      # For Windows**
 
 **Step 3: Install dependencies**
+```bash
 pip install -r requirements.txt
+```
 
 **Step 4: Set up environment variables**
  - Create a .env file in the root of the project.
@@ -80,7 +82,9 @@ pip install -r requirements.txt
    GROQ_API_KEY=your_groq_api_key
 
 **Step 5: Run the application**
+```bash
 streamlit run main.py
+```
 
 **Step 6: Visit the app**
 **- Open the link provided by Streamlit in your browser (usually http://localhost:8501).**
