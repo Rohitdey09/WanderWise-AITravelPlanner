@@ -10,7 +10,7 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
 - 💱 **Currency Converter**: Converts currencies using real-time exchange rates.
 - 📍 **Map Integration**: Displays location-based info using interactive maps.
 
-  ## 🛠️ Tech Stack
+## 🛠️ Tech Stack
 
 - **Frontend**: [Streamlit](https://streamlit.io/) (with multipage support & sidebar UI)
 - **Backend**: Python (using [LangChain](https://www.langchain.com/), [CrewAI](https://docs.crewai.com/), and [Groq API](https://console.groq.com/))
@@ -22,7 +22,7 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
   - `streamlit-folium` for map rendering
   - `pandas` for data handling
   - `dotenv` for managing API keys securely
-  ## 📁 Project Structure
+## 📁 Project Structure
   ai-travel-planner/
 │
 ├── .env # API keys stored securely
@@ -57,42 +57,42 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
 
 ## ✅ Setup Instructions
 
-# Step 1: Clone the repository
+**Step 1: Clone the repository**
 git clone https://github.com/yourusername/ai-travel-planner.git
 cd ai-travel-planner
 
-# Step 2: Create a virtual environment (optional but recommended)
+**Step 2: Create a virtual environment (optional but recommended)**
 python -m venv venv
 source venv/bin/activate   # For Linux/Mac
-# venv\Scripts\activate      # For Windows
+**venv\Scripts\activate      # For Windows**
 
-# Step 3: Install dependencies
+**Step 3: Install dependencies**
 pip install -r requirements.txt
 
-# Step 4: Set up environment variables
-# - Create a .env file in the root of the project.
-# - Add your API keys and any necessary configurations:
-#   GROQ_API_KEY=your_groq_api_key
+**Step 4: Set up environment variables**
+ - Create a .env file in the root of the project.
+ - Add your API keys and any necessary configurations:
+   GROQ_API_KEY=your_groq_api_key
 
-# Step 5: Run the application
+**Step 5: Run the application**
 streamlit run main.py
 
-# Step 6: Visit the app
-# - Open the link provided by Streamlit in your browser (usually http://localhost:8501).
+**Step 6: Visit the app**
+**- Open the link provided by Streamlit in your browser (usually http://localhost:8501).**
 
 ## 🧠 Powered By
-# This project uses a combination of powerful tools and technologies:
+This project uses a combination of powerful tools and technologies:
 
-# LangChain: A framework for developing applications powered by LLMs (Large Language Models).
+LangChain: A framework for developing applications powered by LLMs (Large Language Models).
 
-# CrewAI: A service for managing multiple AI agents that collaborate to complete complex tasks.
+CrewAI: A service for managing multiple AI agents that collaborate to complete complex tasks.
 
-# Groq: High-performance LLMs optimized for fast response times.
+Groq: High-performance LLMs optimized for fast response times.
 
-# Streamlit: A web framework for building and deploying interactive web apps with Python.
+Streamlit: A web framework for building and deploying interactive web apps with Python.
 
-# Geopy: A Python library for geocoding and location-based services.
+Geopy: A Python library for geocoding and location-based services.
 
-# Open Exchange Rates API: API for real-time currency conversion rates.
+Open Exchange Rates API: API for real-time currency conversion rates.
 
-# streamlit-folium: A wrapper to display interactive maps with Folium in Streamlit.
+streamlit-folium: A wrapper to display interactive maps with Folium in Streamlit.
