@@ -61,8 +61,10 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
 ## ✅ Setup Instructions
 
 **Step 1: Clone the repository**
+```bash
 git clone https://github.com/yourusername/ai-travel-planner.git
 cd ai-travel-planner
+```
 
 **Step 2: Create a virtual environment (optional but recommended)**
 python -m venv venv
@@ -86,16 +88,16 @@ streamlit run main.py
 ## 🧠 Powered By
 This project uses a combination of powerful tools and technologies:
 
-LangChain: A framework for developing applications powered by LLMs (Large Language Models).
+- **LangChain**: A framework for developing applications powered by LLMs (Large Language Models).
 
-CrewAI: A service for managing multiple AI agents that collaborate to complete complex tasks.
+- **CrewAI**: A service for managing multiple AI agents that collaborate to complete complex tasks.
 
-Groq: High-performance LLMs optimized for fast response times.
+- **Groq**: High-performance LLMs optimized for fast response times.
 
-Streamlit: A web framework for building and deploying interactive web apps with Python.
+- **Streamlit**: A web framework for building and deploying interactive web apps with Python.
 
-Geopy: A Python library for geocoding and location-based services.
+- **Geopy**: A Python library for geocoding and location-based services.
 
-Open Exchange Rates API: API for real-time currency conversion rates.
+- **Open Exchange Rates API**: API for real-time currency conversion rates.
 
-streamlit-folium: A wrapper to display interactive maps with Folium in Streamlit.
+- **streamlit-folium**: A wrapper to display interactive maps with Folium in Streamlit.
