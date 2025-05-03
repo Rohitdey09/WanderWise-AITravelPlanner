@@ -4,7 +4,7 @@ import pandas as pd
 from datetime import datetime
 
 def get_exchange_rates(base_currency="USD"):
-    """Get current exchange rates"""
+    
     try:
         url = f"https://open.er-api.com/v6/latest/{base_currency}"
         response = requests.get(url)
@@ -20,7 +20,7 @@ def get_exchange_rates(base_currency="USD"):
         return None
 
 def currency_converter_widget():
-    """Display a currency converter widget"""
+    
     st.subheader("💱 Currency Converter")
     
     
