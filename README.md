@@ -25,34 +25,44 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
 ## 📁 Project Structure
   ai-travel-planner/
 │
-├── .env # API keys stored securely
-├── main.py # Entry point for Streamlit app
+├── agents/ # Contains the AI agent files for different features
+│ ├── budget_estimator.py # Budget estimation logic
+│ ├── cuisine_recommendor.py # Cuisine recommendation logic
+│ ├── emergency_assistant.py # Emergency assistance logic
+│ └── trip_planner.py # Trip planning logic
+│
+├── pages/ # Contains Streamlit pages for each feature
+│ ├── home.py # Home page for the application
+│ ├── trip_planner.py # Trip planning page
+│ ├── cuisine_recommendation.py# Cuisine recommendation page
+│ ├── budget_estimation.py # Budget estimation page
+│ ├── emergency_assistance.py # Emergency assistance page
+│ └── currency_converter.py # Currency conversion page
+│
+├── services/ # Contains core services for AI agents and tasks
+│ ├── service.py # Defines the main service for the app
+│ ├── task.py # Task handling logic for AI agents
+│ └── utils.py # Utility functions for various operations
+│
+├── utils/ # Helper utilities for various functionalities
+│ ├── auth.py # Authentication logic
+│ ├── config.py # Configuration file for API keys and settings
+│ ├── session_state.py # Streamlit session state management
+│ ├── currency_utils.py # Currency conversion helper functions
+│ ├── map_utils.py # Map-related utility functions
+│ ├── weather_utils.py # Weather-related utility functions
+│ └── log_utils.py # Logging utilities
+│
+├── .env # Environment variables for sensitive keys and secrets
+├── main.py # The main entry point for the Streamlit application
+├── requirements.txt # List of required Python packages
 ├── README.md # Project documentation
-│
-├── agents/ # CrewAI agents for each feature
-│ ├── budget_estimator.py
-│ ├── trip_planner.py
-│ ├── cuisine_recommendor.py
-│ └── emergency_assistant.py
-│
-├── pages/ # Streamlit pages (UI)
-│ ├── 1_Trip_Planner.py
-│ ├── 2_Cuisine_Recommender.py
-│ ├── 3_Budget_Planner.py
-│ ├── 4_Emergency_Assistant.py
-│ └── 5_Currency_Converter.py
-│
-├── services/ # Tasks and functional service logic
-│ ├── service.py
-│ └── task.py
-│
-└── utils/ # Utility modules and helpers
-├── auth.py
-├── config.py
-├── session_state.py
-├── currency_utils.py
-├── map_utils.py
-└── weather_utils.py
+└── .gitignore # Git ignore file to exclude unnecessary files from the repository
+
+javascript
+Copy
+Edit
+
 
 
 ## ✅ Setup Instructions
