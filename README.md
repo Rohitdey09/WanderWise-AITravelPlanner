@@ -23,7 +23,7 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
   - `pandas` for data handling
   - `dotenv` for managing API keys securely
 ## 📁 Project Structure
-  """ ai-travel-planner/
+``` ai-travel-planner/
 │
 ├── agents/ # Contains the AI agent files for different features
 │ ├── budget_estimator.py # Budget estimation logic
@@ -60,7 +60,7 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
 └── .gitignore # Git ignore file to exclude unnecessary files from the repository
 
 
-"""
+```
 
 
 ## ✅ Setup Instructions
