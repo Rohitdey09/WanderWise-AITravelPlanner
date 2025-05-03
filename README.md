@@ -59,9 +59,7 @@ An AI-powered travel planner that suggests destinations, creates itineraries, an
 ├── README.md # Project documentation
 └── .gitignore # Git ignore file to exclude unnecessary files from the repository
 
-javascript
-Copy
-Edit
+
 
 
 
